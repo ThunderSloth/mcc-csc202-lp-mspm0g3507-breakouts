@@ -1,0 +1,31 @@
+# macOS / Windows junk
+.DS_Store
+Thumbs.db
+
+# Zip Files
+*.zip
+
+# KiCad 9 backup directory
+*-backups/
+
+# Backup files (created on save)
+*.bak
+*-bak
+*.bck
+*-bck
+
+# Project-local settings (don’t need in repo)
+*.kicad_prl
+
+# Cache / info files
+fp-info-cache
+
+# Autosaves / temp files
+_autosave*
+_save*
+*~
+
+# Logs / intermediate
+*.log
+*.tmp
+
