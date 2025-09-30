@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "01-Shared_Project_Footprints")(type "KiCad")(uri "${KIPRJMOD}/../../Shared_Project_Footprints.pretty")(options "")(descr "Custom footprint library containing project-specific silkscreen graphics (e.g., QR codes, maker’s marks) and modified components shared across the CSC-202 breakout board designs."))
+  (lib (name "Shared_Project_Footprints")(type "KiCad")(uri "/Users/elibell/Documents/mcc-csc202-lp-mspm0g3507-breakouts/Shared_Project_Footprints.pretty")(options "")(descr ""))
+)

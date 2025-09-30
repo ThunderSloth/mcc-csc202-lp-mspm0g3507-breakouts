@@ -544,7 +544,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "breakout-3-term-gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
