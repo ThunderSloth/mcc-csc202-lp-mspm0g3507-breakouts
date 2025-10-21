@@ -5,3 +5,4 @@ KiCad project files and Gerbers for breakout boards of the TI MSPM0G3507 microco
 ![2-Terminal Version](assets/CSC202_LP_MSPM0G3507_2TERM_BREAKOUT.png)
 **3-Terminal Version (90×35 mm)**
 ![3-Terminal Version](assets/CSC202_LP_MSPM0G3507_3TERM_BREAKOUT.png)
+![3-Terminal Version on Breadboard](assets/3-term-on_board.png)
