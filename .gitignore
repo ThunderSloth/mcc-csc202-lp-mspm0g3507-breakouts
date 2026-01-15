@@ -1,31 +1,81 @@
-# macOS / Windows junk
-.DS_Store
-Thumbs.db
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
 
-# Zip Files
-*.zip
-
-# KiCad 9 backup directory
-*-backups/
-
-# Backup files (created on save)
+# Temporary files
+*.000
 *.bak
-*-bak
 *.bck
-*-bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*-cache*
+*-bak
+*-bak*
+*~
+~*
+_autosave-*
+\#auto_saved_files\#
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+~*.lck
+\#auto_saved_files#
 
-# Project-local settings (don’t need in repo)
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+
+# Archived Backups (KiCad 6.0)
+**/*-backups/*.zip
+
+# Local project settings
 *.kicad_prl
 
-# Cache / info files
-fp-info-cache
+# -----------------------------
+# OS junk
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
 
-# Autosaves / temp files
-_autosave*
-_save*
-*~
+# -----------------------------
+# KiBot cache / temp
+**/.kibot_cache/
+**/.kibot_tmp/
 
-# Logs / intermediate
-*.log
-*.tmp
+# KiCad lock files
+*.kicad_pcb.lck
+~*.kicad_pcb.lck
 
+# KiBot temporary projects
+kibot_*.kicad_pcb
+kibot_*.kicad_pro
+kibot_*.kicad_prl
+
+# --- KiBot navigation (auto-index) clutter ---
+outputs/**/index*.html
+outputs/**/images/
+outputs/**/styles.css
+outputs/**/markdown-it.min.js
+outputs/**/favicon.ico
+outputs/**/pcbnew_interposer.log
+outputs/**/*.log
+# -----------------------------
+# mkdocs outputs
+site/
+
+# -----------------------------
+# Optional generated artifacts
+# Uncomment if you do NOT want these tracked
+# **/*.pdf
+# **/*.zip
