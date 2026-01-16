@@ -48,8 +48,6 @@ make
 
 ---
 
----
-
 ## 📸 Fabricated Board Photo
 
 The photo below shows the **3-Term breakout installed on a breadboard** after fabrication.
