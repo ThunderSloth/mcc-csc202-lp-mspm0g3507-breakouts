@@ -7,6 +7,16 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "CSC_202_LP_MSPM0G3507_2TERM_BREAKOUT")
+		(date "2026-01-15")
+		(rev "A")
+		(company "Eli Bell")
+		(comment 1 "breadboard center dividers.")
+		(comment 2 "the LaunchPad and reroutes the GPIO headers into a dual-row format that straddle the ")
+		(comment 3 "strip breadoard, such as the JAMECO ValuePro WBU-204-R. It plugs into the underside of ")
+		(comment 4 "A breakout board for the TI MSPM0G3507 LaunchPad intended for use with a TWO terminal ")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -309,9 +319,10 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.916151 1.082981 0)
+			(at -3.406827 -1.01 0)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "dbc388ac-7172-472e-aeef-1c255d3cf448")
 			(effects
 				(font
@@ -1092,6 +1103,7 @@
 		(property "Reference" "LOGO1"
 			(at 1.16 0 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "0d103da7-585d-4257-b24b-c5da00e5ba59")
 			(effects
 				(font
@@ -1244,6 +1256,7 @@
 		(property "Reference" "G1"
 			(at 0.06 4.76 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "ef5ff0c7-3038-431e-b050-dcb0aaf5b4fc")
 			(effects
 				(font
@@ -2761,6 +2774,7 @@
 		(property "Reference" "G2"
 			(at 0.06 -4.76 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "8c3ee63b-e166-432b-801c-9c7d8e717a5e")
 			(effects
 				(font
@@ -5446,6 +5460,18 @@
 		(layer "B.SilkS")
 		(uuid "4e3c2acc-caca-4694-aabc-205a83d4c397")
 	)
+	(gr_rect
+		(start 131.71 35.306556)
+		(end 190.09 141.836556)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(fill no)
+		(locked yes)
+		(layer "Cmts.User")
+		(uuid "1bd43e0e-791e-4886-b8bc-491ac4464738")
+	)
 	(gr_line
 		(start 189.14 80.99)
 		(end 189.14 113.99)
@@ -5529,17 +5555,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "f7fa47c4-1b78-4c31-ac1b-6252f6979114")
-	)
-	(gr_rect
-		(start 131.744727 35.293)
-		(end 190.124727 141.823)
-		(stroke
-			(width 0.1)
-			(type dot)
-		)
-		(fill no)
-		(layer "User.1")
-		(uuid "3ea3a0dc-32af-4aef-843a-c8849f85de11")
 	)
 	(gr_text "GND"
 		(at 164.397865 87.907644 0)
@@ -6649,6 +6664,191 @@
 				(thickness 0.1)
 			)
 			(justify right bottom mirror)
+		)
+	)
+	(gr_text "LP-MSPM0G3507"
+		(at 147.677381 40.32 0)
+		(layer "Cmts.User")
+		(uuid "ac83e7c6-7486-4eeb-8524-62effbbb8e7c")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text_box "DIMENSIONS ARE IN MILLIMETERS\nTOLERANCE ±0.1 mm"
+		(start 86.86 123.77)
+		(end 114.08 128.49)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "Dwgs.User")
+		(uuid "79a61507-80e8-4fac-a7d7-2b26d96e4c48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "a0e66953-49a3-4dcc-aa77-ff3f681c73a8")
+		(pts
+			(xy 178.208927 79.979798) (xy 178.208927 114.93)
+		)
+		(height -91.428927)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(override_value "35")
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "35"
+			(at 85.63 97.454899 90)
+			(layer "Dwgs.User")
+			(uuid "a0e66953-49a3-4dcc-aa77-ff3f681c73a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "de3b4d56-2b3a-4dfb-a92a-ea8b2914d59a")
+		(pts
+			(xy 89.15 83.24) (xy 189.2 83.31)
+		)
+		(height -5.63)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(override_value "100")
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "100"
+			(at 139.175 76.46 0)
+			(layer "Dwgs.User")
+			(uuid "de3b4d56-2b3a-4dfb-a92a-ea8b2914d59a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "1be7e545-10d8-49bc-9dbe-68b177337932")
+		(pts
+			(xy 131.71 35.306556) (xy 190.09 35.306556)
+		)
+		(height -4.046556)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "58.38"
+			(at 160.9 30.11 0)
+			(layer "Cmts.User")
+			(uuid "1be7e545-10d8-49bc-9dbe-68b177337932")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "a7fdde5e-7f79-4168-9c18-7d0e432c674d")
+		(pts
+			(xy 190.09 35.306556) (xy 190.09 141.836556)
+		)
+		(height 9.926731)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "106.53"
+			(at 198.866731 88.571556 90)
+			(layer "Cmts.User")
+			(uuid "a7fdde5e-7f79-4168-9c18-7d0e432c674d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 	)
 	(segment

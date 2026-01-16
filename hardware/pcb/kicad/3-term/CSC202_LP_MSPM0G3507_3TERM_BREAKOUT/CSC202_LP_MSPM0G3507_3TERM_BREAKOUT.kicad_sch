@@ -6,7 +6,13 @@
 	(paper "A5")
 	(title_block
 		(title "CSC_202_LP_MSPM0G3507_3TERM_BREAKOUT")
-		(company "MCC")
+		(date "2026-01-15")
+		(rev "A")
+		(company "Eli Bell")
+		(comment 1 "format that straddle the breadboard center dividers.")
+		(comment 2 "into the underside of the LaunchPad and reroutes the GPIO headers into a dual-row ")
+		(comment 3 "terminal strip breadoard, such as the JAMECO ValuePro WBU-206-R or BB-3T5D. It plugs ")
+		(comment 4 "A breakout board for the TI MSPM0G3507 LaunchPad intended for use with a THREE")
 	)
 	(lib_symbols
 		(symbol "Conn_02x10_Counter_Clockwise_4"
@@ -2225,26 +2231,6 @@
 			(justify top)
 		)
 		(uuid "02d20d34-d7e7-4a41-bb68-cd697ec12aac")
-	)
-	(text_box "A breakout board for the TI MSPM0G3507 LaunchPad intended for use with a THREE terminal strip breadoard, such as the JAMECO ValuePro WBU-206-R or BB-3T5D. It plugs into the underside of the LaunchPad and reroutes the GPIO headers into a dual-row format that straddle the breadboard center dividers."
-		(exclude_from_sim no)
-		(at 91.186 105.156 0)
-		(size 105.664 10.668)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "95f87af6-ca26-4e24-878c-e39606739d62")
 	)
 	(wire
 		(pts
