@@ -56,3 +56,16 @@ The photo below shows the **3-Term breakout installed on a breadboard** after fa
   <img src="docs/assets/3-term-on_board.png" alt="3-Term breakout on breadboard" width="650">
 </p>
 
+---
+
+## 📐 Example Breadboard Application
+
+The diagram below shows an example application implemented on a 3-terminal breadboard.
+
+<p align="center">
+  <img src="assets/example_application.png" alt="Example Application Breadboard Schematic" width="650">
+</p>
+
+
+
+
