@@ -12,6 +12,10 @@
 		(date "2026-01-15")
 		(rev "A")
 		(company "Eli Bell")
+		(comment 1 "allowing the module to demonstrate both parallel GPIO control and serial output expansion.")
+		(comment 2 "or through an SPI shift register interface. A jumper shunt selects the control mode, ")
+		(comment 3 "The LEDs and display segments can be driven either directly via GPIO (current sinking) ")
+		(comment 4 "A visual output board featuring an 8-LED bar graph and a 4-digit seven-segment display. ")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -5775,7 +5779,7 @@
 			)
 		)
 		(property "Value" "SPI↔BUF"
-			(at -0.243831 -2.14 90)
+			(at 0.072295 0.001 90)
 			(layer "F.Fab")
 			(uuid "1f5c534e-95b9-45c9-9154-642436c9d3db")
 			(effects
@@ -5956,7 +5960,7 @@
 			)
 		)
 		(property "Value" "10µF"
-			(at 1.25 1.675 0)
+			(at 1.25 1.177705 0)
 			(layer "F.Fab")
 			(uuid "6e5d707d-203e-4827-8659-2f1dbbf635d2")
 			(effects
@@ -7411,7 +7415,7 @@
 			(uuid "14a7b37e-0029-4d78-9899-2d689022764b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 -1.805 0)
+			(at 1.082842 -1.302295 0)
 			(layer "F.Fab")
 			(uuid "139c9cc9-a24e-45b3-9c78-89e971cad4f5")
 			(effects
@@ -7633,7 +7637,7 @@
 			)
 		)
 		(property "Value" "PWR_LED"
-			(at 1.15 -2.695 0)
+			(at -4.574544 -0.087705 0)
 			(layer "F.Fab")
 			(uuid "20ad7bf5-d685-4f5d-8a20-fdb3dd220746")
 			(effects

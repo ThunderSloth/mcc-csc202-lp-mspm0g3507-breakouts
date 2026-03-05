@@ -28,7 +28,10 @@ GitHub Repository: [ThunderSloth/mcc-csc202-lp-mspm0g3507-breakouts](https://git
 
 ### LED Display Module
 
-[![LED Display Module top render](artifacts/led-module/docs/renders/CSC202_LED_MODULE-top.png)](led-module.md)
+<div class="img-row">
+    <img src="artifacts/led-module/docs/renders/CSC202_LED_MODULE-top.png" alt="LED Display Module top render">
+    <img src="artifacts/led-module/docs/renders/CSC202_LED_MODULE-bottom.png" alt="LED Display Module bottom render">
+    </div>
 
 ➡️ [Open page](led-module.md)
 

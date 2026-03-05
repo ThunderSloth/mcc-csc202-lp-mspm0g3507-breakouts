@@ -95,12 +95,22 @@ def index_md(boards: list[Board]) -> str:
     lines.append("## 📁 Boards")
 
     for b in boards:
-        # path to top render inside docs/ (MkDocs root)
         top_img = f"artifacts/{b.slug}/docs/renders/{b.project}-top.png"
+        btm_img = f"artifacts/{b.slug}/docs/renders/{b.project}-bottom.png"
 
         lines.append(f"### {b.title}")
         lines.append("")
-        lines.append(f"[![{b.title} top render]({top_img})]({b.slug}.md)")
+
+        if b.slug == "led-module":
+            lines.append(
+                f"""<div class="img-row">
+    <img src="{top_img}" alt="{b.title} top render">
+    <img src="{btm_img}" alt="{b.title} bottom render">
+    </div>"""
+            )
+        else:
+            lines.append(f"[![{b.title} top render]({top_img})]({b.slug}.md)")
+
         lines.append("")
         lines.append(f"➡️ [Open page]({b.slug}.md)")
         lines.append("")
