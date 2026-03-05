@@ -29,6 +29,15 @@ KiCad project files and fabrication outputs for **breakout boards based on the T
 
 ---
 
+### **LED Display Module**
+The CSC-202 LED Module is a visual output board featuring an 8-LED bar graph and a 4-digit seven-segment display. The LEDs and display segments can be driven either directly via GPIO (current sinking) or through an SPI shift register interface. A jumper shunt selects the control mode, allowing the module to demonstrate both parallel GPIO control and serial output expansion.
+- [Docs Page](https://thundersloth.github.io/mcc-csc202-lp-mspm0g3507-breakouts/led-module/)
+- [Download Gerbers (ZIP)](https://thundersloth.github.io/mcc-csc202-lp-mspm0g3507-breakouts/artifacts/led-module/fab/CSC202_LED_MODULE_fab.zip.zip)
+
+![LED Display Module 3D Render](assets/led_module_3d.png)
+
+---
+
 ## 🛠 Repo Layout
 
 - `hardware/pcb/kicad/` → KiCad source projects (per-board)
