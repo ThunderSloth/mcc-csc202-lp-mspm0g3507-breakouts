@@ -11,7 +11,7 @@
 		(company "Eli Bell")
 		(comment 1 "breadboard center dividers.")
 		(comment 2 "the LaunchPad and reroutes the GPIO headers into a dual-row format that straddle the ")
-		(comment 3 "strip breadoard, such as the JAMECO ValuePro WBU-204-R. It plugs into the underside of ")
+		(comment 3 "strip breadboard, such as the JAMECO ValuePro WBU-204-R. It plugs into the underside of ")
 		(comment 4 "A breakout board for the TI MSPM0G3507 LaunchPad intended for use with a TWO terminal ")
 	)
 	(lib_symbols

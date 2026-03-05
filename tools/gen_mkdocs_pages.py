@@ -8,7 +8,7 @@ REPO = Path(__file__).resolve().parents[1]
 DOCS = REPO / "docs"
 ART = DOCS / "artifacts"
 
-BOARDS = ["2-term", "3-term"]
+BOARDS = ["2-term", "3-term", "led-module"]
 
 @dataclass
 class Board:
@@ -31,6 +31,8 @@ def board_title(slug: str) -> str:
         return "2-Term Breakout"
     if slug == "3-term":
         return "3-Term Breakout"
+    if slug == "led-module":
+        return "LED Display Module"
     return slug
 
 def write(path: Path, text: str) -> None:

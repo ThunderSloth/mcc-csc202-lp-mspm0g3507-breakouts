@@ -13,7 +13,7 @@
 # ---------------------------------------
 
 BOARD  ?= all
-BOARDS := 2-term 3-term
+BOARDS := 2-term 3-term led-module
 
 # KiBot config (repo-relative)
 KIBOT_CFG := hardware/kibot/kibot.yaml
@@ -48,12 +48,16 @@ all_boards:
 	@$(MAKE) build_one BOARD=3-term
 	@$(MAKE) zip_one BOARD=3-term
 	@$(MAKE) sync_docs_one BOARD=3-term
+	@$(MAKE) build_one BOARD=led-module
+	@$(MAKE) zip_one BOARD=led-module
+	@$(MAKE) sync_docs_one BOARD=led-module
 
 # Convenience aliases
 build:
 ifeq ($(BOARD),all)
 	@$(MAKE) build_one BOARD=2-term
 	@$(MAKE) build_one BOARD=3-term
+	@$(MAKE) build_one BOARD=led-module
 else
 	@$(MAKE) build_one BOARD=$(BOARD)
 endif
@@ -62,6 +66,7 @@ zip:
 ifeq ($(BOARD),all)
 	@$(MAKE) zip_one BOARD=2-term
 	@$(MAKE) zip_one BOARD=3-term
+	@$(MAKE) zip_one BOARD=led-module
 else
 	@$(MAKE) zip_one BOARD=$(BOARD)
 endif
@@ -70,6 +75,7 @@ sync_docs:
 ifeq ($(BOARD),all)
 	@$(MAKE) sync_docs_one BOARD=2-term
 	@$(MAKE) sync_docs_one BOARD=3-term
+	@$(MAKE) sync_docs_one BOARD=led-module
 else
 	@$(MAKE) sync_docs_one BOARD=$(BOARD)
 endif
