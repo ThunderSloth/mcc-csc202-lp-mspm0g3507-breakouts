@@ -20,7 +20,7 @@ GitHub Repository: [ThunderSloth/mcc-csc202-lp-mspm0g3507-breakouts](https://git
 
 ### 3-Term Breakout
 
-[![3-Term Breakout top render](artifacts/3-term/docs/renders/CSC202_LP_MSPM0G3507_3TERM_BREAKOUT-top.png)](3-term.md)
+[![3-Term Breakout top render](artifacts/3-term/docs/renders/CSC202_LP_MSPM0G3507_3TERM_BREAKOUT-schematic 2-top.png)](3-term.md)
 
 ➡️ [Open page](3-term.md)
 

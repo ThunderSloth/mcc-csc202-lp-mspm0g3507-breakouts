@@ -61,7 +61,8 @@ This page hosts the complete set of design, assembly, and fabrication artifacts 
 
 - **Interactive BOM (iBOM)** [[view]](artifacts/{s}/docs/ibom/{p}-ibom.html)
 - **Bill of Materials (CSV)** [[view]](artifacts/{s}/assembly/{p}-bom.csv.html) [[download]](artifacts/{s}/assembly/{p}-bom.csv)
-- **Assembly Drawing (PDF)** [[view]](artifacts/{s}/docs/assembly/{p}-assembly-top.pdf)
+- **Assembly Drawing — Top (PDF)** [[view]](artifacts/{s}/docs/assembly/{p}-assembly-top.pdf)
+- **Assembly Drawing — Bottom (PDF)** [[view]](artifacts/{s}/docs/assembly/{p}-assembly-bottom.pdf)
 
 ---
 

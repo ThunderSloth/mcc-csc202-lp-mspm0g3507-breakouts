@@ -16,7 +16,8 @@ This page hosts the complete set of design, assembly, and fabrication artifacts 
 
 - **Interactive BOM (iBOM)** [[view]](artifacts/2-term/docs/ibom/CSC202_LP_MSPM0G3507_2TERM_BREAKOUT-ibom.html)
 - **Bill of Materials (CSV)** [[view]](artifacts/2-term/assembly/CSC202_LP_MSPM0G3507_2TERM_BREAKOUT-bom.csv.html) [[download]](artifacts/2-term/assembly/CSC202_LP_MSPM0G3507_2TERM_BREAKOUT-bom.csv)
-- **Assembly Drawing (PDF)** [[view]](artifacts/2-term/docs/assembly/CSC202_LP_MSPM0G3507_2TERM_BREAKOUT-assembly-top.pdf)
+- **Assembly Drawing — Top (PDF)** [[view]](artifacts/2-term/docs/assembly/CSC202_LP_MSPM0G3507_2TERM_BREAKOUT-assembly-top.pdf)
+- **Assembly Drawing — Bottom (PDF)** [[view]](artifacts/2-term/docs/assembly/CSC202_LP_MSPM0G3507_2TERM_BREAKOUT-assembly-bottom.pdf)
 
 ---
 

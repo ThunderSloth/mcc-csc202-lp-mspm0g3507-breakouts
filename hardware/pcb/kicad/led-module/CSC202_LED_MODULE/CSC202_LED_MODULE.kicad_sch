@@ -9,6 +9,10 @@
 		(date "2026-02-05")
 		(rev "A")
 		(company "Eli Bell")
+		(comment 1 "allowing the module to demonstrate both parallel GPIO control and serial output expansion.")
+		(comment 2 "or through an SPI shift register interface. A jumper shunt selects the control mode, ")
+		(comment 3 "The LEDs and display segments can be driven either directly via GPIO (current sinking) ")
+		(comment 4 "A visual output board featuring an 8-LED bar graph and a 4-digit seven-segment display. ")
 	)
 	(lib_symbols
 		(symbol "74xx:74HC244"
@@ -1979,6 +1983,156 @@
 					(at 0 -2.54 90)
 					(length 2.032)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5114,12 +5268,6 @@
 		(uuid "185a1a5d-14bd-4423-98f0-6132ffc6b8c0")
 	)
 	(junction
-		(at 40.64 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ce57770-bbb8-479a-ac66-06a7b6767dd4")
-	)
-	(junction
 		(at 67.31 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5136,12 +5284,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b258526-ada1-477a-a848-adf6d45f9d48")
-	)
-	(junction
-		(at 40.64 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4de3be49-646d-4620-b7ae-157faad30742")
 	)
 	(junction
 		(at 143.51 48.26)
@@ -5174,12 +5316,6 @@
 		(uuid "9bf575ca-f402-47ec-80bc-7f34bac9725d")
 	)
 	(junction
-		(at 40.64 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6244a31-9311-4193-b7a7-ca1144314e24")
-	)
-	(junction
 		(at 217.17 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5198,12 +5334,6 @@
 		(uuid "b047f981-1fea-4392-b782-23c2140cd9d1")
 	)
 	(junction
-		(at 40.64 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8df49f6-ad5c-4e07-80c7-6aa699736499")
-	)
-	(junction
 		(at 130.81 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5214,12 +5344,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2a19a5e-5784-4d0b-bb62-98fc00ccfcd9")
-	)
-	(junction
-		(at 40.64 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb71872d-c82b-4106-a30b-4c49b6638dfd")
 	)
 	(no_connect
 		(at 214.63 149.86)
@@ -6007,16 +6131,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 152.4) (xy 40.64 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0619cc5e-e000-4c06-bb43-902f455d0788")
-	)
-	(wire
-		(pts
 			(xy 137.16 35.56) (xy 128.27 35.56)
 		)
 		(stroke
@@ -6047,7 +6161,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 149.86) (xy 40.64 149.86)
+			(xy 39.37 149.86) (xy 49.53 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6104,16 +6218,6 @@
 			(type default)
 		)
 		(uuid "15b57053-ddd6-4e6d-a194-cfd3b73d1b07")
-	)
-	(wire
-		(pts
-			(xy 40.64 149.86) (xy 49.53 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "163b8032-cdf2-4119-8935-99f5dfd5484c")
 	)
 	(wire
 		(pts
@@ -6467,7 +6571,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 154.94) (xy 49.53 154.94)
+			(xy 39.37 154.94) (xy 49.53 154.94)
 		)
 		(stroke
 			(width 0)
@@ -6955,16 +7059,6 @@
 		)
 		(uuid "6b5c43f2-4c8a-4b99-95f7-d73f915be298")
 	)
-	(wire
-		(pts
-			(xy 39.37 157.48) (xy 40.64 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ba876d6-9cc3-401d-a633-fe266c21a89b")
-	)
 	(bus
 		(pts
 			(xy 156.21 104.14) (xy 156.21 106.68)
@@ -7217,7 +7311,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 68.58) (xy 63.5 68.58)
+			(xy 62.23 68.58) (xy 63.5 68.58)
 		)
 		(stroke
 			(width 0)
@@ -7307,7 +7401,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 68.58) (xy 45.72 68.58)
+			(xy 40.64 68.58) (xy 43.18 68.58)
 		)
 		(stroke
 			(width 0)
@@ -7447,7 +7541,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 157.48) (xy 49.53 157.48)
+			(xy 39.37 157.48) (xy 49.53 157.48)
 		)
 		(stroke
 			(width 0)
@@ -7667,7 +7761,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 147.32) (xy 49.53 147.32)
+			(xy 39.37 147.32) (xy 49.53 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7677,7 +7771,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 152.4) (xy 49.53 152.4)
+			(xy 39.37 152.4) (xy 49.53 152.4)
 		)
 		(stroke
 			(width 0)
@@ -8017,6 +8111,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 68.58) (xy 52.07 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc35e7a2-8342-4740-b7de-549dcf9f4d94")
+	)
+	(wire
+		(pts
 			(xy 118.11 109.22) (xy 107.95 109.22)
 		)
 		(stroke
@@ -8255,16 +8359,6 @@
 		)
 		(uuid "f318d389-7023-4204-9a75-d1c5c7638759")
 	)
-	(wire
-		(pts
-			(xy 39.37 154.94) (xy 40.64 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6068d69-a1c7-484c-b0e0-86f1202e596a")
-	)
 	(bus
 		(pts
 			(xy 193.04 107.95) (xy 193.04 110.49)
@@ -8344,16 +8438,6 @@
 			(type default)
 		)
 		(uuid "fccbd7b9-55c7-4c10-82c3-2a87f5748b7d")
-	)
-	(wire
-		(pts
-			(xy 39.37 147.32) (xy 40.64 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff2d593f-0ae6-4074-a562-ce0435d2a25f")
 	)
 	(label "MOSI"
 		(at 196.85 44.45 180)
@@ -9607,15 +9691,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
-		(at 35.56 152.4 0)
+		(at 34.29 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "03956a95-f5cf-4578-87be-497752f50993")
-		(property "Reference" "J6"
-			(at 35.56 141.732 0)
+		(property "Reference" "J5"
+			(at 36.068 141.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9623,7 +9707,7 @@
 			)
 		)
 		(property "Value" "EN_IF"
-			(at 35.56 144.272 0)
+			(at 36.068 144.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9631,7 +9715,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 35.56 152.4 0)
+			(at 34.29 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9640,7 +9724,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 152.4 0)
+			(at 34.29 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9649,7 +9733,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 35.56 152.4 0)
+			(at 34.29 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9675,7 +9759,7 @@
 		(instances
 			(project ""
 				(path "/501232f2-70a5-4b6c-b37f-05d55718ad93"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -10256,7 +10340,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 50.8 68.58 0)
+		(at 57.15 68.58 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -10264,7 +10348,7 @@
 		(dnp no)
 		(uuid "30f19c6b-2055-4a0a-a7d0-72543640ad95")
 		(property "Reference" "JP1"
-			(at 50.8 63.5 0)
+			(at 57.15 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10272,7 +10356,7 @@
 			)
 		)
 		(property "Value" "TEST_PT"
-			(at 51.562 65.786 0)
+			(at 57.912 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10280,7 +10364,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 50.8 68.58 0)
+			(at 57.15 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10289,7 +10373,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 68.58 0)
+			(at 57.15 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10298,7 +10382,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 50.8 68.58 0)
+			(at 57.15 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10458,6 +10542,74 @@
 			(project "CSC202_DIPSW_MODULE"
 				(path "/501232f2-70a5-4b6c-b37f-05d55718ad93"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 46.99 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "401993bf-f02b-4068-8fd8-6df4e8aa2d6a")
+		(property "Reference" "D2"
+			(at 47.3075 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 47.3075 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 46.99 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5556c82-f4b3-4ae6-b4ee-5886392714ef")
+		)
+		(pin "2"
+			(uuid "3a5ed176-55a6-46a9-a33b-2ca236211df7")
+		)
+		(instances
+			(project ""
+				(path "/501232f2-70a5-4b6c-b37f-05d55718ad93"
+					(reference "D2")
 					(unit 1)
 				)
 			)

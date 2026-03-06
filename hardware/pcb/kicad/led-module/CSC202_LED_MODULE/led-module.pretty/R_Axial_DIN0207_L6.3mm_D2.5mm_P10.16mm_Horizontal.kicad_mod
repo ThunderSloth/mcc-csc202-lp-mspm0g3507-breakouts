@@ -6,9 +6,9 @@
 	(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 	(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 	(property "Reference" "REF**"
-		(at 5.08 0 0)
+		(at 3.28 -2.206235 0)
 		(layer "F.SilkS")
-		(uuid "4b42a5c4-617e-4870-bf89-ba6f49771a01")
+		(uuid "922eb991-7e6d-4fa9-bba8-81b7ba59b9eb")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "33Ω"
-		(at 6.56 0 0)
+	(property "Value" "220Ω"
+		(at 5.08 0 0)
 		(layer "F.Fab")
-		(uuid "690f1d7f-7c74-437a-af7a-44d234d54822")
+		(uuid "e6c544ee-dad8-42cd-9633-dd96d7d865c2")
 		(effects
 			(font
 				(size 1 1)
@@ -27,12 +27,11 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "~"
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b8bf488e-8d71-44a5-83e9-554977aff9db")
+		(uuid "b9a62edf-71c7-4c03-8eff-ccf95b9bd4bf")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,10 +41,9 @@
 	)
 	(property "Description" "Resistor, US symbol"
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a55f3929-f9fa-41a9-b95c-83c9c6a29e33")
+		(uuid "cb70bca8-dffb-4d71-a673-720c7941f078")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -62,47 +60,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9a40a5c5-e9b0-4c70-8c92-f6a32e92406d")
-	)
-	(fp_line
-		(start 1.81 -1.37)
-		(end 1.81 1.37)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "19791860-e3aa-497c-b5be-73fa7e94a6c7")
-	)
-	(fp_line
-		(start 1.81 1.37)
-		(end 8.35 1.37)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "f7fcb456-fdd8-4714-a6e3-5148f80622b7")
-	)
-	(fp_line
-		(start 8.35 -1.37)
-		(end 1.81 -1.37)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "efbe5b17-9496-44ba-adb3-8a842dafdea9")
-	)
-	(fp_line
-		(start 8.35 1.37)
-		(end 8.35 -1.37)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "769306ed-c2a0-4473-8793-8b0a4f87b013")
+		(uuid "9173a836-2bb4-49af-8b58-1ce4d379de8c")
 	)
 	(fp_line
 		(start 9.12 0)
@@ -112,47 +70,29 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3361251c-6093-4961-a971-a7f32bbbbbc7")
+		(uuid "6b13bc29-f5bd-47e1-bfb7-9c8430b7a2d9")
 	)
-	(fp_line
-		(start -1.05 -1.5)
-		(end -1.05 1.5)
+	(fp_rect
+		(start 1.81 -1.37)
+		(end 8.35 1.37)
 		(stroke
-			(width 0.05)
+			(width 0.12)
 			(type solid)
 		)
-		(layer "F.CrtYd")
-		(uuid "d678a0fe-e5bd-460a-bd14-b2de3bcb7313")
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "835a59fd-12cf-452b-a18f-13a604a47c20")
 	)
-	(fp_line
-		(start -1.05 1.5)
+	(fp_rect
+		(start -1.05 -1.5)
 		(end 11.21 1.5)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "93e555df-eaad-4be9-a68c-d73a7d5fd558")
-	)
-	(fp_line
-		(start 11.21 -1.5)
-		(end -1.05 -1.5)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "708fbac8-bb2e-486e-ad29-b9f22eecdb93")
-	)
-	(fp_line
-		(start 11.21 1.5)
-		(end 11.21 -1.5)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "dedf6669-f6a8-476f-a610-c38fcd87ce7b")
+		(uuid "d9dd56c1-8728-4887-9563-b109476f86f6")
 	)
 	(fp_line
 		(start 0 0)
@@ -162,47 +102,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "20c18518-2d87-4024-92c6-fa1f54e8c072")
-	)
-	(fp_line
-		(start 1.93 -1.25)
-		(end 1.93 1.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "6e9d1424-052e-48e6-b0e1-24a89831d8fb")
-	)
-	(fp_line
-		(start 1.93 1.25)
-		(end 8.23 1.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "a710ba44-2227-4b59-99c1-558f259acf15")
-	)
-	(fp_line
-		(start 8.23 -1.25)
-		(end 1.93 -1.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "86874658-6426-4bee-b74c-ca7f7f1daccc")
-	)
-	(fp_line
-		(start 8.23 1.25)
-		(end 8.23 -1.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "02115c82-83f2-4c9e-9d25-709a9ce75f2d")
+		(uuid "690ef91e-b8d8-4a60-8fd9-72b70b02e9cf")
 	)
 	(fp_line
 		(start 10.16 0)
@@ -212,12 +112,23 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "ae4cce91-efc3-4348-b0df-1bc25875ea71")
+		(uuid "fda52901-407a-43c5-be8b-74033a0a1f7c")
+	)
+	(fp_rect
+		(start 1.93 -1.25)
+		(end 8.23 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9ce73ee6-145b-43cd-a55a-b23f46c565bd")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 3.15 0 0)
+		(at 3.28 -2.196235 0)
 		(layer "F.Fab")
-		(uuid "05c9e7e1-da77-487f-9c87-8651ca3afa27")
+		(uuid "1a3a2106-8e56-4d9c-bb27-356dafa6c813")
 		(effects
 			(font
 				(size 1 1)
@@ -242,9 +153,9 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "1a990689-e60d-474f-9efe-30eb6ce2dc39")
+		(uuid "683dbe63-4358-48ff-8ea4-af6175d62eca")
 	)
-	(pad "2" thru_hole oval
+	(pad "2" thru_hole circle
 		(at 10.16 0)
 		(size 1.6 1.6)
 		(drill 0.8)
@@ -261,10 +172,10 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "fe4c26e0-1f4e-40ee-96d4-2c48ae497df4")
+		(uuid "64364aec-0f80-4b98-af53-6240635edfff")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

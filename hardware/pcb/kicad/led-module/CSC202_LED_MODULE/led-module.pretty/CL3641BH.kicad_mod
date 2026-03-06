@@ -6,9 +6,9 @@
 	(descr "4 digit 7 segment green LED, http://www.kingbrightusa.com/images/catalog/SPEC/CA56-12EWA.pdf")
 	(tags "4 digit 7 segment green LED")
 	(property "Reference" "REF**"
-		(at 11.125001 -10.020001 0)
+		(at 9.409545 -10.037296 0)
 		(layer "F.SilkS")
-		(uuid "7b2a9cbe-6e3c-4abd-bec6-2a5307549011")
+		(uuid "81041847-2dd5-41fa-b194-21d43a0a10df")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "CA56-12SEKWA"
 		(at 4.775001 19.909999 0)
 		(layer "F.Fab")
-		(uuid "269b2274-be4d-41b6-82a3-fe3658482eec")
+		(uuid "993b0119-687e-4ad8-bed9-a29075742722")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f8dded5a-2969-4feb-9c78-e4681a65564a")
+		(uuid "09f2be17-8df1-442a-b3b4-7969f7da3cc8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "494d2af2-0092-4e6a-9f8b-181bbb989d55")
+		(uuid "58011b39-c627-4e36-be06-d72a88c2262c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -62,7 +62,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0f69a935-b28c-46b7-9719-66c737563390")
+		(uuid "2a39ef8a-f097-4fdb-8872-9e8b7a8c8641")
 	)
 	(fp_rect
 		(start -1.91 -9.025)
@@ -73,7 +73,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "73551bb8-0cd1-4b2e-83e2-27d638b28239")
+		(uuid "b99731c6-866d-45dc-9256-60cda8498b83")
 	)
 	(fp_rect
 		(start -1.975 -9.2)
@@ -84,7 +84,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "a6cc8c34-9b7d-42d3-96ff-dd59752c1417")
+		(uuid "20e0e060-821f-4db5-8d71-035a2d985609")
 	)
 	(fp_line
 		(start -1.879999 0.999999)
@@ -94,7 +94,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "6072a4d1-b8e4-4d3f-900f-632ed9988014")
+		(uuid "0865c75f-7189-4620-b3ec-2e747f7e1dce")
 	)
 	(fp_line
 		(start -0.879999 -0.000001)
@@ -104,7 +104,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "9d3178d2-7ada-43b6-a805-ac5d2ed4d3f6")
+		(uuid "a717376a-d43c-4fd4-a813-44a8fe682fd2")
 	)
 	(fp_rect
 		(start -1.9 -9.125)
@@ -115,12 +115,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "02046bf5-3bdd-4add-a0a5-25daac82459f")
+		(uuid "78dfba37-825e-4dcf-b5f3-7de157127466")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 4.730001 5.099999 0)
 		(layer "F.Fab")
-		(uuid "d1e2b971-ec0f-4111-adae-a9e801610ca9")
+		(uuid "54dfad81-a79a-4206-8373-ad9d4d2b2a16")
 		(effects
 			(font
 				(size 1 1)
@@ -145,7 +145,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "8e7762f4-088a-40d6-952d-8656716301a6")
+		(uuid "8c25ec24-c2f5-4577-b9c7-a865eee9237e")
 	)
 	(pad "2" thru_hole circle
 		(at 0.000001 2.539999)
@@ -164,7 +164,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "5352ec15-61cd-440e-bd6c-97830db28376")
+		(uuid "12bfc9e3-4d7b-4225-bbb2-513f6d644e2f")
 	)
 	(pad "3" thru_hole circle
 		(at 0.000001 5.079999)
@@ -183,7 +183,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "29a9a66d-0fbc-48eb-b9ed-aa92c6c22aa5")
+		(uuid "3bbf1bbd-c9e3-4d16-911c-0abb9bc47e99")
 	)
 	(pad "4" thru_hole circle
 		(at 0.000001 7.619999)
@@ -202,7 +202,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "377a0400-d8ea-40b6-80bc-219efffacca3")
+		(uuid "fc1022d9-0f57-4d89-b1c6-b85f0758f938")
 	)
 	(pad "5" thru_hole circle
 		(at 0.000001 10.159999)
@@ -221,7 +221,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "89d36c4f-67af-4862-89ab-0d2cb2fa589d")
+		(uuid "deea74e2-42f4-47b6-8f49-18c7059fc213")
 	)
 	(pad "6" thru_hole circle
 		(at 0.000001 12.699999)
@@ -240,7 +240,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "bb994e89-9cac-4bce-8c02-c9ddd1d32183")
+		(uuid "1376fdfd-073a-4122-8f5e-58cc1e6a8681")
 	)
 	(pad "7" thru_hole circle
 		(at 10.400001 12.699999)
@@ -259,7 +259,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "12cdd957-895e-4ed7-ae44-6f9d5988790a")
+		(uuid "713c4692-f19f-4728-949e-98b456eaedf8")
 	)
 	(pad "8" thru_hole circle
 		(at 10.400001 10.159999)
@@ -278,7 +278,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "add1b47e-9397-4084-a9c9-ba847016a8ab")
+		(uuid "57c0a80b-0537-4ad1-a2f2-374a841923e5")
 	)
 	(pad "9" thru_hole circle
 		(at 10.400001 7.619999)
@@ -297,7 +297,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "8016886a-c7a7-477c-b695-6e4777aafbac")
+		(uuid "6ec05169-6905-4ab3-b798-28c6ac3d7266")
 	)
 	(pad "10" thru_hole circle
 		(at 10.400001 5.079999)
@@ -316,7 +316,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "9775290f-fa60-4b85-8cc4-bda276d550df")
+		(uuid "9e91f6f0-140b-4445-bbc4-7fd18329c205")
 	)
 	(pad "11" thru_hole circle
 		(at 10.400001 2.539999)
@@ -335,7 +335,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "269cd232-72a4-4aec-b0fb-ecd63d70ef88")
+		(uuid "63382102-00b9-44fa-a102-657ca8aef903")
 	)
 	(pad "12" thru_hole circle
 		(at 10.400001 -0.000001)
@@ -354,24 +354,24 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "0f9f44ba-3eed-469c-adc9-62f43c1b742e")
+		(uuid "c6ed4f4d-3220-4096-92dd-3cd36e8d42f2")
 	)
 	(group ""
-		(uuid "48e94958-6960-46ad-8f2e-0aeaa54327eb")
-		(members "0f9f44ba-3eed-469c-adc9-62f43c1b742e" "12cdd957-895e-4ed7-ae44-6f9d5988790a"
-			"269cd232-72a4-4aec-b0fb-ecd63d70ef88" "29a9a66d-0fbc-48eb-b9ed-aa92c6c22aa5"
-			"377a0400-d8ea-40b6-80bc-219efffacca3" "5352ec15-61cd-440e-bd6c-97830db28376"
-			"6072a4d1-b8e4-4d3f-900f-632ed9988014" "8016886a-c7a7-477c-b695-6e4777aafbac"
-			"89d36c4f-67af-4862-89ab-0d2cb2fa589d" "8e7762f4-088a-40d6-952d-8656716301a6"
-			"9775290f-fa60-4b85-8cc4-bda276d550df" "9d3178d2-7ada-43b6-a805-ac5d2ed4d3f6"
-			"add1b47e-9397-4084-a9c9-ba847016a8ab" "bb994e89-9cac-4bce-8c02-c9ddd1d32183"
-			"d1e2b971-ec0f-4111-adae-a9e801610ca9"
+		(uuid "27019427-ac35-43b7-b671-29fc6e4d488a")
+		(members "0865c75f-7189-4620-b3ec-2e747f7e1dce" "12bfc9e3-4d7b-4225-bbb2-513f6d644e2f"
+			"1376fdfd-073a-4122-8f5e-58cc1e6a8681" "3bbf1bbd-c9e3-4d16-911c-0abb9bc47e99"
+			"54dfad81-a79a-4206-8373-ad9d4d2b2a16" "57c0a80b-0537-4ad1-a2f2-374a841923e5"
+			"63382102-00b9-44fa-a102-657ca8aef903" "6ec05169-6905-4ab3-b798-28c6ac3d7266"
+			"713c4692-f19f-4728-949e-98b456eaedf8" "8c25ec24-c2f5-4577-b9c7-a865eee9237e"
+			"9e91f6f0-140b-4445-bbc4-7fd18329c205" "a717376a-d43c-4fd4-a813-44a8fe682fd2"
+			"c6ed4f4d-3220-4096-92dd-3cd36e8d42f2" "deea74e2-42f4-47b6-8f49-18c7059fc213"
+			"fc1022d9-0f57-4d89-b1c6-b85f0758f938"
 		)
 	)
 	(group ""
-		(uuid "db536f70-4635-4270-b90f-c8283c5e8f9d")
-		(members "02046bf5-3bdd-4add-a0a5-25daac82459f" "73551bb8-0cd1-4b2e-83e2-27d638b28239"
-			"a6cc8c34-9b7d-42d3-96ff-dd59752c1417"
+		(uuid "9517c8c9-c807-4729-b08e-5a348f8b1aee")
+		(members "20e0e060-821f-4db5-8d71-035a2d985609" "78dfba37-825e-4dcf-b5f3-7de157127466"
+			"b99731c6-866d-45dc-9256-60cda8498b83"
 		)
 	)
 	(embedded_fonts no)

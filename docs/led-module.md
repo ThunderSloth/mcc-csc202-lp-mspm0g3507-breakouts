@@ -16,7 +16,8 @@ This page hosts the complete set of design, assembly, and fabrication artifacts 
 
 - **Interactive BOM (iBOM)** [[view]](artifacts/led-module/docs/ibom/CSC202_LED_MODULE-ibom.html)
 - **Bill of Materials (CSV)** [[view]](artifacts/led-module/assembly/CSC202_LED_MODULE-bom.csv.html) [[download]](artifacts/led-module/assembly/CSC202_LED_MODULE-bom.csv)
-- **Assembly Drawing (PDF)** [[view]](artifacts/led-module/docs/assembly/CSC202_LED_MODULE-assembly-top.pdf)
+- **Assembly Drawing — Top (PDF)** [[view]](artifacts/led-module/docs/assembly/CSC202_LED_MODULE-assembly-top.pdf)
+- **Assembly Drawing — Bottom (PDF)** [[view]](artifacts/led-module/docs/assembly/CSC202_LED_MODULE-assembly-bottom.pdf)
 
 ---
 

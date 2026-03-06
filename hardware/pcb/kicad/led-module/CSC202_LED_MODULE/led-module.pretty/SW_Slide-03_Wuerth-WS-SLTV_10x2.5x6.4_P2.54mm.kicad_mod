@@ -6,9 +6,9 @@
 	(descr "Wuerth, WS-SLTV, 450301014042, https://www.we-online.com/components/products/datasheet/450301014042.pdf")
 	(tags "switch single-pole opposite-side-connection double-throw SPDT würth wurth")
 	(property "Reference" "REF**"
-		(at -6.125 0.025 270)
+		(at -6.067705 -0.000456 90)
 		(layer "F.SilkS")
-		(uuid "3cbf33b0-a76a-4665-b630-aca22e1637ae")
+		(uuid "02260269-dd38-4607-8d17-df8e5f33cce8")
 		(effects
 			(font
 				(size 1 1)
@@ -17,9 +17,9 @@
 		)
 	)
 	(property "Value" "SPI↔BUF"
-		(at -0.243831 -2.14 0)
+		(at 0 3.81 0)
 		(layer "F.Fab")
-		(uuid "fd14cd1d-f7b5-4748-90e6-84f795950a78")
+		(uuid "a9540e71-6c8e-445b-a916-df5a5e0066c7")
 		(effects
 			(font
 				(size 1 1)
@@ -27,12 +27,12 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "~"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c01796fe-8f59-4637-ac57-96b7a82cf46d")
+		(uuid "8ea30e2b-465f-446f-bb3b-6ef64ebea53b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,12 +40,12 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Switch, single pole double throw"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "feabaef8-101e-4de0-b915-64554c7949d4")
+		(uuid "3b8b567b-49e5-4490-a2ec-1e47cb4a655f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -63,7 +63,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "0594a544-9928-43c4-8bb3-6f6f02e25528")
+		(uuid "24d99a73-0bea-486a-9380-b99503f03ad3")
 	)
 	(fp_rect
 		(start -5.25 -1.5)
@@ -74,7 +74,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "f8b36df0-fd56-4420-8040-bbcafb919a49")
+		(uuid "34f08bb3-3b15-4483-86b3-685ad8bff778")
 	)
 	(fp_rect
 		(start -5 -1.25)
@@ -85,12 +85,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "42a10b09-d3a3-46ae-bbe8-52700f22af68")
+		(uuid "df33808d-cf00-4b43-88d7-ec54a4bb903a")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -6.125 0.025 270)
+		(at -6.067705 0.019544 90)
 		(layer "F.Fab")
-		(uuid "8f3c126a-5f64-438a-9b2d-464bdc9bc406")
+		(uuid "dc1eb5f3-a5ee-4879-8960-5f176fa2f45c")
 		(effects
 			(font
 				(size 1 1)
@@ -98,27 +98,8 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
-		(at -2.55 0)
-		(size 1.5 1.5)
-		(drill 0.8)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(teardrops
-			(best_length_ratio 0.5)
-			(max_length 1)
-			(best_width_ratio 1)
-			(max_width 2)
-			(curved_edges no)
-			(filter_ratio 0.9)
-			(enabled yes)
-			(allow_two_segments yes)
-			(prefer_zone_connections yes)
-		)
-		(uuid "5272e05a-9a4a-4bc5-8adc-2f86e18d551f")
-	)
-	(pad "2" thru_hole circle
-		(at 0 0)
+	(pad "1" thru_hole circle
+		(at -2.54 0)
 		(size 1.6 1.6)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
@@ -134,7 +115,26 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "668d24bb-ebf4-4786-b6d6-eebc8855db80")
+		(uuid "788e0367-2840-466a-bbcf-bedb0f40bda3")
+	)
+	(pad "2" thru_hole rect
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "be33b45d-f3d1-4e7e-b402-aeec5c9448b1")
 	)
 	(pad "3" thru_hole circle
 		(at 2.54 0)
@@ -153,10 +153,10 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "cf60d76b-dc44-40a4-8e89-c19474cdc927")
+		(uuid "5e8ce6b6-28b9-41ea-80fc-5e26a993a0c9")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

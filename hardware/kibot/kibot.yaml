@@ -81,6 +81,29 @@ outputs:
               plot_footprint_values: false
             - User.Drawings
 
+  - name: assy_btm
+    type: pcb_print
+    dir: docs/assembly
+    options:
+      format: PDF
+      output: "%f-assembly-bottom.%x"
+      plot_sheet_reference: true
+      scaling: 0
+      autoscale_margin_x: 50
+      autoscale_margin_y: 50
+      pages:
+        - title: "Assembly Drawing (Bottom)"
+          monochrome: true
+          mirror: true
+          layers:
+            - layer: Edge.Cuts
+              use_for_center: true
+            - layer: B.Fab
+            - layer: B.CrtYd
+              plot_footprint_refs: false
+              plot_footprint_values: false
+            - layer: User.Drawings
+
   - name: mcad_step
     type: export_3d
     dir: mcad
