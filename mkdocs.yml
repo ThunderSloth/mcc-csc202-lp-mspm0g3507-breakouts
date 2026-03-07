@@ -1,0 +1,43 @@
+site_name: MCC CSC202 MSPM0G3507 Breakouts
+site_url: https://thundersloth.github.io/mcc-csc202-lp-mspm0g3507-breakouts/
+use_directory_urls: true
+
+repo_url: https://github.com/ThunderSloth/mcc-csc202-lp-mspm0g3507-breakouts
+repo_name: ThunderSloth/mcc-csc202-lp-mspm0g3507-breakouts
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: default
+      primary: indigo
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+nav:
+  - Home: index.md
+  - 2-Term Breakout: 2-term.md
+  - 3-Term Breakout: 3-term.md
+  - LED Display Module: led-module.md
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ThunderSloth/mcc-csc202-lp-mspm0g3507-breakouts
+

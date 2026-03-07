@@ -1,0 +1,68 @@
+/* ============================================================
+   Artifact action links: [view] | [download]
+   ============================================================ */
+
+.md-content a[href*="artifacts/"] {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Insert literal delimiter between adjacent artifact links */
+.md-content a[href*="artifacts/"] + a[href*="artifacts/"]::before {
+  content: " | ";
+  color: var(--md-default-fg-color--lighter);
+  margin: 0 0.25em;
+}
+
+/* ============================================================
+   General typography polish
+   ============================================================ */
+
+.md-content p:not(.theme-image) {
+  margin: 0.35rem 0;
+  line-height: 1.5;
+}
+
+.md-content h2 {
+  margin-top: 1.6rem;
+}
+
+/* ============================================================
+   Theme-aware schematic images
+   ============================================================ */
+
+/* Theme-aware schematic images (scoped) */
+
+/* Default (light mode): only show the light schematic inside .theme-image */
+.theme-image .only-light { display: block; }
+.theme-image .only-dark  { display: none; }
+
+/* Material dark scheme: swap */
+[data-md-color-scheme="slate"] .theme-image .only-light { display: none; }
+[data-md-color-scheme="slate"] .theme-image .only-dark  { display: block; }
+
+/* Spacing and presentation for schematic preview */
+.theme-image {
+  margin: 1rem 0;
+}
+
+.theme-image img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50px;
+}
+
+/* ============================================================
+   Side-by-side Images
+   ============================================================ */
+
+.img-row {
+  display: flex;
+  gap: 20px;
+}
+
+.img-row img {
+  width: 48%;
+}
+
