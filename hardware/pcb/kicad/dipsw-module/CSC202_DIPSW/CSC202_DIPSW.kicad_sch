@@ -5,6 +5,8 @@
 	(uuid "25dc5bd5-ed34-4d24-a1b6-19c025f3cbeb")
 	(paper "A4")
 	(title_block
+		(title "CSC_202_SW_MODULE")
+		(company "Eli Bell")
 		(comment 3 "configurable analog input using a potentiometer with DIP-selectable ADC connection.")
 		(comment 4 "Four GPIO inputs with dual control via DIP switches and pushbuttons. Includes a")
 	)

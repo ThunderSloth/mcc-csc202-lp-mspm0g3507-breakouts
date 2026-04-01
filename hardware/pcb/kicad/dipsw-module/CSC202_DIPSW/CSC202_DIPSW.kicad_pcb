@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "CSC_202_SW_MODULE")
+		(company "Eli Bell")
+		(comment 3 "configurable analog input using a potentiometer with DIP-selectable ADC connection.")
+		(comment 4 "Four GPIO inputs with dual control via DIP switches and pushbuttons. Includes a")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -6064,6 +6070,101 @@
 				(bold yes)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(gr_text_box "DIMENSIONS ARE IN MILLIMETERS\nTOLERANCE ±0.1 mm"
+		(start 116.48 132.79)
+		(end 143.7 137.51)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "Dwgs.User")
+		(uuid "15fbd4ef-3663-4ff4-bd2a-af42d20f1bdc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "b849ad06-ea88-429e-b93d-2788184e9a63")
+		(pts
+			(xy 129.45 61.94) (xy 169.45 61.94)
+		)
+		(height -2.37)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "40"
+			(at 149.45 58.42 0)
+			(layer "Cmts.User")
+			(uuid "b849ad06-ea88-429e-b93d-2788184e9a63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "c659f6ae-ae29-43ec-b5cb-69b6db2d1fe8")
+		(pts
+			(xy 130.45 61.94) (xy 130.45 127.94)
+		)
+		(height -3.72)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "66"
+			(at 125.58 94.94 90)
+			(layer "Cmts.User")
+			(uuid "c659f6ae-ae29-43ec-b5cb-69b6db2d1fe8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 	)
 	(via
