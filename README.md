@@ -38,6 +38,17 @@ The CSC-202 LED Module is a visual output board featuring an 8-LED bar graph and
 
 ---
 
+### **DIP Switch / Pushbutton Module**
+The CSC-202 DIP Switch / Pushbutton Module provides four digital input channels, each connected to both a DIP switch and a momentary pushbutton. This allows testing of both persistent and transient inputs on shared GPIO lines. An additional analog input is provided via an onboard potentiometer, which can be enabled or disconnected using a dedicated DIP switch. The module is designed for direct breadboard use and serves as a simple, reusable input interface for labs and debugging.
+
+- [Docs Page](https://thundersloth.github.io/mcc-csc202-lp-mspm0g3507-breakouts/dipsw-module/)
+- [Download Gerbers (ZIP)](https://thundersloth.github.io/mcc-csc202-lp-mspm0g3507-breakouts/artifacts/dipsw-module/fab/CSC202_DIPSW_fab.zip)
+
+![DIP Switch Module 3D Render](assets/sw_module_3d.png)
+
+---
+
+
 ## 🛠 Repo Layout
 
 - `hardware/pcb/kicad/` → KiCad source projects (per-board)
