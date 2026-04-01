@@ -1,7 +1,7 @@
 ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('KiCad electronic assembly'),'2;1');
-FILE_NAME('CSC202_LED_MODULE-3D.step','2026-03-06T17:54:17',('Pcbnew'),(
+FILE_NAME('CSC202_LED_MODULE-3D.step','2026-04-01T01:10:58',('Pcbnew'),(
     'Kicad'),'Open CASCADE STEP processor 7.6','KiCad to STEP converter'
   ,'Unknown');
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));
@@ -36202,7 +36202,7 @@ SHAPE_REPRESENTATION_RELATIONSHIP() );
 #33729 = PRODUCT_DEFINITION_SHAPE('','',#33730);
 #33730 = PRODUCT_DEFINITION('design','',#33731,#33734);
 #33731 = PRODUCT_DEFINITION_FORMATION('','',#33732);
-#33732 = PRODUCT('kibot_ulxa6tix_PCB','kibot_ulxa6tix_PCB','',(#33733));
+#33732 = PRODUCT('kibot_kpmri25h_PCB','kibot_kpmri25h_PCB','',(#33733));
 #33733 = PRODUCT_CONTEXT('',#2,'mechanical');
 #33734 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
 #33735 = ADVANCED_BREP_SHAPE_REPRESENTATION('',(#11,#33736),#39486);
