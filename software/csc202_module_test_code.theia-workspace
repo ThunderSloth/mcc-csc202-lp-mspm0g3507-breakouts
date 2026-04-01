@@ -1,0 +1,22 @@
+{
+  "folders": [
+    {
+      "path": "led_module_test"
+    }
+  ],
+  "settings": {},
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "led_module_test",
+        "type": "ccs-debug",
+        "request": "launch",
+        "projectInfo": {
+          "name": "led_module_test",
+          "resourceId": "/led_module_test/led_test_main.c"
+        }
+      }
+    ]
+  }
+}
