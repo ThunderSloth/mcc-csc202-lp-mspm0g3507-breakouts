@@ -31,8 +31,19 @@ GitHub Repository: [ThunderSloth/mcc-csc202-lp-mspm0g3507-breakouts](https://git
 <div class="img-row">
     <img src="artifacts/led-module/docs/renders/CSC202_LED_MODULE-top.png" alt="LED Display Module top render">
     <img src="artifacts/led-module/docs/renders/CSC202_LED_MODULE-bottom.png" alt="LED Display Module bottom render">
-    </div>
+</div>
 
 ➡️ [Open page](led-module.md)
+
+---
+
+### DIP Switch Module
+
+<div class="img-row">
+    <img src="artifacts/dipsw-module/docs/renders/CSC202_DIPSW-top.png" alt="DIP Switch Module top render">
+    <img src="artifacts/dipsw-module/docs/renders/CSC202_DIPSW-bottom.png" alt="DIP Switch Module bottom render">
+</div>
+
+➡️ [Open page](dipsw-module.md)
 
 ---

@@ -26,6 +26,7 @@ nav:
   - 2-Term Breakout: 2-term.md
   - 3-Term Breakout: 3-term.md
   - LED Display Module: led-module.md
+  - DIP Switch Module: dipsw-module.md
 
 markdown_extensions:
   - attr_list
