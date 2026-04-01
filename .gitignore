@@ -74,8 +74,22 @@ outputs/**/*.log
 # mkdocs outputs
 site/
 
-# -----------------------------
-# Optional generated artifacts
-# Uncomment if you do NOT want these tracked
-# **/*.pdf
-# **/*.zip
+# temp render/output stream junk
+.goutputstream-*
+
+# compiler artifacts
+*.o
+*.d
+*.out
+*.map
+
+# clangd / tooling
+.clangd/
+.cache/
+
+# IDE / local build artifacts
+Debug/
+Release/
+
+# optional local workspace files
+# *.theia-workspace

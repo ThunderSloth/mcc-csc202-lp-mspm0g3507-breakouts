@@ -8,13 +8,15 @@ REPO = Path(__file__).resolve().parents[1]
 DOCS = REPO / "docs"
 ART = DOCS / "artifacts"
 
-BOARDS = ["2-term", "3-term", "led-module"]
+BOARDS = ["2-term", "3-term", "led-module", "dipsw-module"]
+
 
 @dataclass
 class Board:
     slug: str          # "2-term"
     title: str         # "2-Term Breakout"
     project: str       # "CSC202_LP_MSPM0G3507_2TERM_BREAKOUT"
+
 
 def infer_project(board_slug: str) -> str:
     schem_dir = ART / board_slug / "docs" / "schematic"
@@ -26,6 +28,7 @@ def infer_project(board_slug: str) -> str:
         return name[: -len("-schematic.pdf")]
     return name.rsplit(".", 1)[0]
 
+
 def board_title(slug: str) -> str:
     if slug == "2-term":
         return "2-Term Breakout"
@@ -33,12 +36,20 @@ def board_title(slug: str) -> str:
         return "3-Term Breakout"
     if slug == "led-module":
         return "LED Display Module"
+    if slug == "dipsw-module":
+        return "DIP Switch Module"
     return slug
+
+
+def use_dual_render_layout(slug: str) -> bool:
+    return slug in {"led-module", "dipsw-module"}
+
 
 def write(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text.rstrip() + "\n", encoding="utf-8")
     print(f"Wrote {path.relative_to(REPO)}")
+
 
 def board_md(b: Board) -> str:
     p = b.project
@@ -78,6 +89,7 @@ This page hosts the complete set of design, assembly, and fabrication artifacts 
 - **3D STEP Model** [[download]](artifacts/{s}/mcad/{p}-3D.step)
 """
 
+
 def index_md(boards: list[Board]) -> str:
     lines = []
     lines.append("# CSC-202 LP-MSPM0G3507 Breakouts — Hardware Documentation")
@@ -102,12 +114,12 @@ def index_md(boards: list[Board]) -> str:
         lines.append(f"### {b.title}")
         lines.append("")
 
-        if b.slug == "led-module":
+        if use_dual_render_layout(b.slug):
             lines.append(
                 f"""<div class="img-row">
     <img src="{top_img}" alt="{b.title} top render">
     <img src="{btm_img}" alt="{b.title} bottom render">
-    </div>"""
+</div>"""
             )
         else:
             lines.append(f"[![{b.title} top render]({top_img})]({b.slug}.md)")
@@ -119,6 +131,7 @@ def index_md(boards: list[Board]) -> str:
         lines.append("")
 
     return "\n".join(lines)
+
 
 def main() -> int:
     if not ART.is_dir():
@@ -135,6 +148,7 @@ def main() -> int:
         write(DOCS / f"{b.slug}.md", board_md(b))
 
     return 0
+
 
 if __name__ == "__main__":
     raise SystemExit(main())
