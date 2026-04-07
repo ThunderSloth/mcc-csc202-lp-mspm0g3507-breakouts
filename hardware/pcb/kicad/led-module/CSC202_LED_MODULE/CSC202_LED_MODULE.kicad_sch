@@ -5165,6 +5165,17 @@
 		)
 		(uuid "36204ee2-f6c9-4525-80db-2e45dc84ae76")
 	)
+	(text "The shunt (JP1) is for current measurement.\nRemoving it during operation does not fully depower the module because of signal-line backpowering.\nThis is expected and not an issue in normal use."
+		(exclude_from_sim no)
+		(at 17.018 191.262 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3bc5b2fe-de18-4e08-88ae-7f1270c2de27")
+	)
 	(text "LED DISPLAY"
 		(exclude_from_sim no)
 		(at 187.452 78.232 0)
