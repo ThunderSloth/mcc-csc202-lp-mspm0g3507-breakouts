@@ -68,12 +68,16 @@ make
 
 ---
 
-## 📸 Fabricated Board Photo
-
-The photo below shows the **3-Term breakout installed on a breadboard** after fabrication.
+## 📸 Fabricated Board Photos
 
 <p align="center">
+    <strong>3-Term Breakout</strong><br>
   <img src="docs/assets/3-term-on_board.png" alt="3-Term breakout on breadboard" width="650">
+</p>
+
+<p align="center">
+  <strong>LED Display Module</strong><br>
+  <img src="/assets/led_module_fabricated.png" alt="Fabricated LED Module" width="650">
 </p>
 
 ---
